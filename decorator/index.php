@@ -1,3 +1,4 @@
+<h1>Design patterns: decorator</h1>
 <?php
 
 spl_autoload_register('autoload');
