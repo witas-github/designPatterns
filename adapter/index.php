@@ -14,7 +14,7 @@ function autoload($className)
     include $path.$className.'.php';
 }
 
-$inputData = 'Věta k zahešování!';
+$inputData = 'Some words to be hashed!';
 //$generator = new HashGeneratorAdapter();
 //$generator->setData($inputData);
 
