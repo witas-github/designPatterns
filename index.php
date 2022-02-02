@@ -1,5 +1,6 @@
 <h1>Design patterns</h1>
 <h3>https://github.com/witas-github/designPatterns/</h3>
+<h3>https://refactoring.guru/</h3>
 
 <?php
 
