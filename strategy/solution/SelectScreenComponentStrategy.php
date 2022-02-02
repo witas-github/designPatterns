@@ -9,7 +9,6 @@ class SelectScreenComponentStrategy
 
     public function __construct(public int $device)
     {
-        $this->device = $device;
     }
 
     #[Pure] public function createScreenComponent(): string
