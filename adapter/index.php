@@ -15,6 +15,7 @@ function autoload($className)
 }
 
 $inputData = 'Some words to be hashed!';
+
 //$generator = new HashGeneratorAdapter();
 //$generator->setData($inputData);
 

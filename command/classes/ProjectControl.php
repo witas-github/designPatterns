@@ -7,14 +7,10 @@ class ProjectControl
         return "Cache has been cleared";
     }
 
-    public function setMaintenanceModeOn(): string
+    public function setMaintenanceMode(string $mode): string
     {
-        return "Maintenance mode has been turned on";
+        return "Maintenance mode has been turned " . $mode;
     }
 
-    public function setMaintenanceModeOff(): string
-    {
-        return "Maintenance mode has been turned off";
-    }
 
 }

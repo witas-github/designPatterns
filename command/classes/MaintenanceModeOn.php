@@ -10,7 +10,7 @@ class MaintenanceModeOn implements CommandInterface
 
     #[Pure] public function execute(): string
     {
-        return $this->projectControl->setMaintenanceModeOn();
+        return $this->projectControl->setMaintenanceMode('on');
     }
 
 }
